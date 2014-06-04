@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.authors      = { 'Madalina Ardelean' => 'ardeleanmada1@gmail.com' }
   spec.summary      = 'A custom segmented control with rectangular sgments.'
   spec.source       = { :git => 'https://github.com/MadalinaArdelean/MACustomSegmentedControl.git', :tag => 'v0.0.1' }
-  spec.source_files = 'SegmentedControl/Classes/GUI/CustomSegmentedControl/*'
+  spec.source_files = 'SegmentedControl/Classes/GUI/CustomSegmentedControl/*.{h,m}'
   spec.framework    = 'UIKit'
   spec.requires_arc = true
 end
