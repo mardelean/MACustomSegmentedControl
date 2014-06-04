@@ -17,3 +17,4 @@ segmentedControlView.title = @"Segmented control example";
 [self.view addSubview:segmentedControlView];
 
 ```
+![Screenshot](https://github.com/MadalinaArdelean/MACustomSegmentedControl/raw/master/screenshot.png)
