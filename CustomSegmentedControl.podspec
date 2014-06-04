@@ -8,5 +8,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/MadalinaArdelean/MACustomSegmentedControl.git', :tag => 'v0.0.1' }
   spec.source_files = 'SegmentedControl/Classes/GUI/CustomSegmentedControl/*.{h,m}'
   spec.framework    = 'UIKit'
+  spec.platform     = :ios, '6.0'
   spec.requires_arc = true
 end
