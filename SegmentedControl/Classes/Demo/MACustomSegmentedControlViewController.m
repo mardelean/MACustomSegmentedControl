@@ -88,6 +88,7 @@ static NSString *kCellIdentifier = @"Cell";
             break;
         case 4:
             color = self.segmentedControlView.selectedSegmentTextColor;
+            break;
         default:
             break;
     }
@@ -226,11 +227,12 @@ static NSString *kCellIdentifier = @"Cell";
     if (!_segmentedControlView) {
         _segmentedControlView = [[MACustomSegmentedControlView alloc] initWithFrame:CGRectZero andItems:@[@"One", @"Two", @"Three", @"Four"]];
         _segmentedControlView.delegate = self;
-        _segmentedControlView.title = @"Segmented control example";
+        _segmentedControlView.titleLabel.text = @"Segmented control example";
         [_segmentedControlView setNumberOfSegmentsInLine:4 forOrientation:UIInterfaceOrientationMaskLandscape];
         [_segmentedControlView setNumberOfSegmentsInLine:2 forOrientation:UIInterfaceOrientationMaskPortrait];
         _segmentedControlView.selectedSegmentBackgroundColor = [UIColor redColor];
         [_segmentedControlView selectSegmentAtIndex:0];
+        [[MASegmentView appearance] setLabelFont:[UIFont fontWithName:@"Helvetica" size:15]];
     }
     return _segmentedControlView;
 }

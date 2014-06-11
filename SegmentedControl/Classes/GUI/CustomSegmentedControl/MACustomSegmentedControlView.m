@@ -11,9 +11,8 @@
 
 @interface MACustomSegmentedControlView ()
 
-@property (nonatomic, strong) UILabel *titleLabel;
 @property (nonatomic, strong) NSArray *segments;
-
+@property (nonatomic, strong) UILabel *titleLabel;
 @property (nonatomic, assign) NSUInteger numberOfItemsForPortrait;
 @property (nonatomic, assign) NSUInteger numberOfItemsForLandscape;
 
@@ -31,7 +30,6 @@
         [self addSubview:self.titleLabel];
         [self addItemsToSubview:items];
         [self setupDefaults];
-
     }
     return self;
 }
@@ -164,14 +162,6 @@
     for (MABaseSegmentView *segment in self.segments) {
         segment.selectedTextColor = selectedSegmentTextColor;
     }
-}
-
-- (void)setTitle:(NSString *)title {
-    if ([_title isEqualToString:title]) {
-        return;
-    }
-    _title = title;
-    self.titleLabel.text = title;
 }
 
 - (UILabel *)titleLabel {

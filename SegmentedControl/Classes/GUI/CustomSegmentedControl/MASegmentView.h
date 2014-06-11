@@ -12,6 +12,7 @@
 
 @interface MASegmentView : MABaseSegmentView
 
-@property (nonatomic, copy)   NSString *text;
+@property (nonatomic, copy) NSString *text;
+@property (nonatomic, strong) UIFont *labelFont UI_APPEARANCE_SELECTOR;
 
 @end

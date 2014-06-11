@@ -29,12 +29,11 @@
 @property (nonatomic, assign) id<MACustomSegmentedControlDelegate> delegate;
 
 - (instancetype)initWithFrame:(CGRect)frame andItems:(NSArray *)items;
-@property (nonatomic, copy) NSString *title;
+@property (nonatomic, strong, readonly) UILabel *titleLabel;
 
 @property (nonatomic, assign) CGFloat minLineSpacing; //will return the default value if unset (1.0)
 @property (nonatomic, assign) CGFloat minRowSpacing; //will return the default value if unset (1.0)
 @property (nonatomic, assign) CGFloat segmentHeight; //will return the default value if unset (36.0)
-
 
 @property (nonatomic, assign) BOOL allowMultipleSelection;
 

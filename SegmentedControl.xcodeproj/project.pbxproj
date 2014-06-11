@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		930C86EC193EEB07003DD1A9 /* MACustomSegmentedControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930C86EB193EEB07003DD1A9 /* MACustomSegmentedControlViewController.m */; };
-		932DFBB419386E7A00F775C6 /* MABaseSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 932DFBB319386E7A00F775C6 /* MABaseSegmentView.m */; };
+		93F997F71941DAB300501F21 /* MABaseSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F997F21941DAB300501F21 /* MABaseSegmentView.m */; };
+		93F997F81941DAB300501F21 /* MACustomSegmentedControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F997F41941DAB300501F21 /* MACustomSegmentedControlView.m */; };
+		93F997F91941DAB300501F21 /* MASegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F997F61941DAB300501F21 /* MASegmentView.m */; };
 		93FDEE95193613C1002FE93C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FDEE94193613C1002FE93C /* Foundation.framework */; };
 		93FDEE97193613C1002FE93C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FDEE96193613C1002FE93C /* CoreGraphics.framework */; };
 		93FDEE99193613C1002FE93C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FDEE98193613C1002FE93C /* UIKit.framework */; };
@@ -21,8 +23,6 @@
 		93FDEEB0193613C2002FE93C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FDEE98193613C1002FE93C /* UIKit.framework */; };
 		93FDEEB8193613C2002FE93C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93FDEEB6193613C2002FE93C /* InfoPlist.strings */; };
 		93FDEEBA193613C2002FE93C /* SegmentedControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FDEEB9193613C2002FE93C /* SegmentedControlTests.m */; };
-		93FDEED11936170A002FE93C /* MASegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FDEED01936170A002FE93C /* MASegmentView.m */; };
-		93FDEED519361AAE002FE93C /* MACustomSegmentedControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FDEED419361AAE002FE93C /* MACustomSegmentedControlView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,12 @@
 /* Begin PBXFileReference section */
 		930C86EA193EEB07003DD1A9 /* MACustomSegmentedControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MACustomSegmentedControlViewController.h; path = Classes/Demo/MACustomSegmentedControlViewController.h; sourceTree = "<group>"; };
 		930C86EB193EEB07003DD1A9 /* MACustomSegmentedControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MACustomSegmentedControlViewController.m; path = Classes/Demo/MACustomSegmentedControlViewController.m; sourceTree = "<group>"; };
-		932DFBB219386E7A00F775C6 /* MABaseSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MABaseSegmentView.h; path = Classes/GUI/CustomSegmentedControl/Base/MABaseSegmentView.h; sourceTree = "<group>"; };
-		932DFBB319386E7A00F775C6 /* MABaseSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MABaseSegmentView.m; path = Classes/GUI/CustomSegmentedControl/Base/MABaseSegmentView.m; sourceTree = "<group>"; };
+		93F997F11941DAB300501F21 /* MABaseSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MABaseSegmentView.h; path = Classes/GUI/CustomSegmentedControl/MABaseSegmentView.h; sourceTree = "<group>"; };
+		93F997F21941DAB300501F21 /* MABaseSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MABaseSegmentView.m; path = Classes/GUI/CustomSegmentedControl/MABaseSegmentView.m; sourceTree = "<group>"; };
+		93F997F31941DAB300501F21 /* MACustomSegmentedControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MACustomSegmentedControlView.h; path = Classes/GUI/CustomSegmentedControl/MACustomSegmentedControlView.h; sourceTree = "<group>"; };
+		93F997F41941DAB300501F21 /* MACustomSegmentedControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MACustomSegmentedControlView.m; path = Classes/GUI/CustomSegmentedControl/MACustomSegmentedControlView.m; sourceTree = "<group>"; };
+		93F997F51941DAB300501F21 /* MASegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASegmentView.h; path = Classes/GUI/CustomSegmentedControl/MASegmentView.h; sourceTree = "<group>"; };
+		93F997F61941DAB300501F21 /* MASegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MASegmentView.m; path = Classes/GUI/CustomSegmentedControl/MASegmentView.m; sourceTree = "<group>"; };
 		93FDEE91193613C1002FE93C /* SegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegmentedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93FDEE94193613C1002FE93C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		93FDEE96193613C1002FE93C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,10 +60,6 @@
 		93FDEEB5193613C2002FE93C /* SegmentedControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SegmentedControlTests-Info.plist"; sourceTree = "<group>"; };
 		93FDEEB7193613C2002FE93C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93FDEEB9193613C2002FE93C /* SegmentedControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegmentedControlTests.m; sourceTree = "<group>"; };
-		93FDEECF1936170A002FE93C /* MASegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASegmentView.h; path = Classes/GUI/CustomSegmentedControl/Views/MASegmentView.h; sourceTree = "<group>"; };
-		93FDEED01936170A002FE93C /* MASegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MASegmentView.m; path = Classes/GUI/CustomSegmentedControl/Views/MASegmentView.m; sourceTree = "<group>"; };
-		93FDEED319361AAE002FE93C /* MACustomSegmentedControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MACustomSegmentedControlView.h; path = Classes/GUI/CustomSegmentedControl/Views/MACustomSegmentedControlView.h; sourceTree = "<group>"; };
-		93FDEED419361AAE002FE93C /* MACustomSegmentedControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MACustomSegmentedControlView.m; path = Classes/GUI/CustomSegmentedControl/Views/MACustomSegmentedControlView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 		932DFBB119386E3500F775C6 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				932DFBB219386E7A00F775C6 /* MABaseSegmentView.h */,
-				932DFBB319386E7A00F775C6 /* MABaseSegmentView.m */,
+				93F997F11941DAB300501F21 /* MABaseSegmentView.h */,
+				93F997F21941DAB300501F21 /* MABaseSegmentView.m */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -204,10 +204,10 @@
 		93FDEED219361A71002FE93C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				93FDEECF1936170A002FE93C /* MASegmentView.h */,
-				93FDEED01936170A002FE93C /* MASegmentView.m */,
-				93FDEED319361AAE002FE93C /* MACustomSegmentedControlView.h */,
-				93FDEED419361AAE002FE93C /* MACustomSegmentedControlView.m */,
+				93F997F51941DAB300501F21 /* MASegmentView.h */,
+				93F997F61941DAB300501F21 /* MASegmentView.m */,
+				93F997F31941DAB300501F21 /* MACustomSegmentedControlView.h */,
+				93F997F41941DAB300501F21 /* MACustomSegmentedControlView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -310,9 +310,9 @@
 			files = (
 				930C86EC193EEB07003DD1A9 /* MACustomSegmentedControlViewController.m in Sources */,
 				93FDEEA5193613C1002FE93C /* MAAppDelegate.m in Sources */,
-				93FDEED11936170A002FE93C /* MASegmentView.m in Sources */,
-				932DFBB419386E7A00F775C6 /* MABaseSegmentView.m in Sources */,
-				93FDEED519361AAE002FE93C /* MACustomSegmentedControlView.m in Sources */,
+				93F997F81941DAB300501F21 /* MACustomSegmentedControlView.m in Sources */,
+				93F997F71941DAB300501F21 /* MABaseSegmentView.m in Sources */,
+				93F997F91941DAB300501F21 /* MASegmentView.m in Sources */,
 				93FDEEA1193613C1002FE93C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

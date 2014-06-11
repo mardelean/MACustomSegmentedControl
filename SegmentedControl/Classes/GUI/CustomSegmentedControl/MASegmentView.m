@@ -77,6 +77,14 @@
     }
 }
 
+- (void)setLabelFont:(UIFont *)labelFont {
+    if ([_labelFont isEqual:labelFont]) {
+        return;
+    }
+    _labelFont = labelFont;
+    self.textLabel.font = _labelFont;
+}
+
 - (void)setText:(NSString *)text {
     if ([_text isEqualToString:text]) {
         return;
