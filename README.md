@@ -1,7 +1,7 @@
 #MACustomSegmentedControl
 A custom segmented control, with rectangular segments.
 
-[![Build Status](https://travis-ci.org/MadalinaArdelean/MACustomSegmentedControl.svg?branch=master)](https://travis-ci.org/MadalinaArdelean/MACustomSegmentedControl)
+[![Build Status](https://travis-ci.org/mardelean/MACustomSegmentedControl.svg?branch=master)](https://travis-ci.org/mardelean/MACustomSegmentedControl)
 
 ##Installation
 Drag and drop ```MACustomSegmentedControlView.h/m``` into your project.
